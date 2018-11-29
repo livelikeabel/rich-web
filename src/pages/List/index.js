@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
 
+import Header from 'src/components/Header'
+
 class List extends Component {
   render() {
-    return <div>list</div>
+    return (
+      <div>
+        <Header title={'CHAT'} />
+        list
+      </div>
+    )
   }
 }
 
